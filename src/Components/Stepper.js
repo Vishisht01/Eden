@@ -35,7 +35,8 @@ export default function HorizontalNonLinearStepper() {
             borderColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : '#eaeaf0',
             borderTopWidth: 3,
             borderRadius: 1,
-
+            marginLeft: -16,
+            marginRight: -8
         },
     }));
     const [activeStep, setActiveStep] = React.useState(3);
@@ -94,7 +95,7 @@ export default function HorizontalNonLinearStepper() {
                     <Stepper connector={<QontoConnector />} activeStep={activeStep}>
                         {steps.map((label, index) => (
                             <Step key={label} completed={completed[index]}>
-                                <StepButton disabled color="inherit" onClick={handleStep(index)}>
+                                <StepButton style={{ color: 'red' }} disabled color="red" onClick={handleStep(index)}>
                                     {label}
                                 </StepButton>
                             </Step>
