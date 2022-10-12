@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 import FormHeading from '../Components/FormHeading';
 import FormTwo from '../Components/FormTwo';
-
+import { actions } from '../redux';
 export default function PageTwo() {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch({ type: 'set/step', payload: { step: 1 } })
+        dispatch({ type: actions.SET_STEP, payload: { step: 1 } })
     }, [])
     return (
         <>
