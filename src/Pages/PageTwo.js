@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux';
 import FormHeading from '../Components/FormHeading';
 import FormTwo from '../Components/FormTwo';
 
 export default function PageTwo() {
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch({ type: 'set/step', payload: { step: 1 } })
+    }, [])
     return (
         <>
             <FormHeading firstHeading="Let's setup a home for all your work" secondHeading="You can always create another workspace later." />
