@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+.header_icon>img {
+    width: 40px;
+    height: 40px;
+}

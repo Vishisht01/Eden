@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(224, 219, 219);
+    border-radius: 12px;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+.card:hover {
+    border-color: rgb(102, 76, 230);
+}
+
+.card_icon {
+    color: rgb(102, 76, 230);
+
+}
+
+.card_text {
+    color: grey;
+    font-size: 13px;
+}

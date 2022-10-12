@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+.Check {
+    display: flex;
+    justify-content: center;
+    color: rgb(102, 76, 230);
+    margin-top: 70px;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 13px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+.form_heading>h5 {
+    color: rgb(168, 159, 159);
+    display: flex;
+    justify-content: center;
+    font-family: 'BIZ UDPMincho', serif;
+
+
+}
+
+.form_heading>h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'BIZ UDPMincho', serif;
+}
