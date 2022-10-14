@@ -26,16 +26,6 @@ form {
     margin-top: 20px;
 }
 
-.only_button {
-    background-color: rgb(102, 76, 230);
-    height: 40px;
-    border-radius: 5px;
-    color: white;
-    margin-top: 30px;
-    width: 310px;
-    font-family: 'BIZ UDPMincho', serif;
-    border-style: none;
-}
 
 .semi_input {
     display: flex;

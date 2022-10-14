@@ -21,7 +21,7 @@ export default function FormOne({ placeholder1, placeholder2, label1, label2, bu
                 <input className={style.name_input} onChange={(e) => { setFName(e.target.value) }} type="text" id="fname" placeholder={placeholder1}></input>
                 <label className={style.name_label}>{label2}</label>
                 <input className={style.name_input} onChange={(event) => { setDisplayName(event.target.value) }} type="text" id="fname" placeholder={placeholder2} />
-                <Link to="Workspace"><button style={{ backgroundColor: !enableBtn() ? 'rgb(102, 76, 229)' : '#878f99' }} className={style.only_button} onClick={() => onSubmit(displayName)} disabled={enableBtn()} >{buttonText}</button></Link>
+                <Link to="Workspace"><button style={{ backgroundColor: !enableBtn() ? 'rgb(102, 76, 229)' : 'rgba(102, 76, 229, 0.75)' }} className={style.only_button} onClick={() => onSubmit(displayName)} disabled={enableBtn()} >{buttonText}</button></Link>
             </form>
         </div>
     )

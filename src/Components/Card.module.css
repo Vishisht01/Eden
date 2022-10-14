@@ -12,9 +12,7 @@
     font-family: 'BIZ UDPMincho', serif;
 }
 
-.card:hover {
-    border-color: rgb(102, 76, 230);
-}
+
 
 .card_icon {
     color: rgb(102, 76, 230);
